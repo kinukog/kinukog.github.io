@@ -134,7 +134,7 @@ header h1 {
   padding-bottom: 20px;
   border-bottom: 1px solid #6F6F6F;
   justify-content: flex-start;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .date {
