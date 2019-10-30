@@ -1,0 +1,119 @@
+@media screen and (max-width:800px) { 
+    /*　画面サイズが360pxからはここを読み込む　*/
+    .container {
+      max-width: 780px;
+      width: 100%;
+      padding: 0 15px;
+      margin: 0 auto;
+    }
+    
+    .contents-wrapper {
+      padding: 40px 0 60px 0;
+      margin: 0 auto;
+    }
+
+    .header-menu {
+      height: 82px;
+      background-color: white;
+      width: 100%;
+      align-items: flex-start;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: left;
+      padding-top: 20px;
+    }
+
+    header ul {
+      display: flex;
+    }
+
+    .menu {
+      margin-left: 0;
+      margin: 10px 0 20px 0;
+    }
+
+    .header-menu li {
+      margin-right: 12px;
+    }
+
+    header h1 {
+      font-size: 18px;
+      width: 100%;
+    }
+
+    .header-menu li {
+      font-size: 14px;
+      font-weight: normal;
+    }
+
+    .contents-wrapper h1,h2 {
+      font-size: 22px;
+      border-bottom: #1F91BE 3px solid;
+      padding-bottom: 6px;
+      margin-bottom: 20px;
+    }
+
+    .left-side-wrapper {
+      width: 100%;
+      padding: 0;
+    }
+
+    .article {
+      width: 100%;
+      margin-bottom: 60px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .article-img {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    .date {
+      margin-bottom: 20px;
+    }
+
+    .all-news-btn {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 60px;
+    }
+
+    .right-side-wrapper {
+      width: 100%;
+    }
+
+    .side-images {
+      width: 100%;
+      max-width: 300px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-right: 38px;
+      padding-left: 38px;
+    }
+
+    .right-container img {
+      padding-bottom: 20px;
+    }
+
+    .rigth-container img:last-child {
+      padding-bottom: 0px;
+    }
+
+    .right-container h2 {
+      margin-top: 58px;
+    }
+
+    .category-lists li {
+      font-size: 14px;
+    }
+
+  }
+
+  @media screen and (max-width:1024px) {
+    /*　画面サイズが768pxからはここを読み込む　*/
+   
+  }
