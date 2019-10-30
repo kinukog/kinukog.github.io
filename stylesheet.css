@@ -1,0 +1,216 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+ol, ul {
+  list-style: none;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    padding: 0 100px;
+    margin: 0 auto;
+}
+
+h1,h2 {
+  color:#1F91BE;
+}
+
+/* headerのCSS設定 */
+
+.header-menu {
+  height: 75px;
+  background-color: white;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 0 28px 0px;
+}
+
+header ul {
+  display: flex;
+}
+
+header h1 {
+  font-size: 31px;
+}
+
+.menu {
+  margin-left: 30px;
+}
+
+.header-menu li {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.header-menu li:last-child {
+  margin-right: 0px;
+}
+
+/* メイン画像のCSS設定 */
+.main-image img {
+  width: 100%;
+}
+
+/* bodyのCSS設定 */
+.contents-wrapper {
+  padding: 100px 0 118px 0;
+  margin: 0 auto;
+}
+
+.contents-wrapper h1 {
+  font-size: 32px;
+  border-bottom: #1F91BE 4px solid;
+  padding-bottom: 9px;
+  margin-bottom: 30px;
+}
+
+.contents-wrapper h2 {
+  font-size: 24px;
+  border-bottom: #1F91BE 4px solid;
+  padding-bottom: 9px;
+  margin-bottom: 30px;
+}
+
+.contents-flexbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* コンテンツの左側 */
+
+.left-side-wrapper {
+  width: 70%;
+  padding-right: 79px;
+}
+
+.left-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* ABOUTのコンテンツ */
+
+.article-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.article {
+  max-width: 320px;
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+.article-img {
+  margin-bottom: 30px;
+}
+
+.article p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+/* NEWSのコンテンツ */
+
+.news-article {
+  display: flex;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #6F6F6F;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.date {
+  margin-right: 48px;
+}
+
+.date p {
+  font-size: 14px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.news-text p {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.all-news-btn {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.all-news-btn span {
+  color: #1F91BE;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 34px;
+  border: #1F91BE 2px solid;
+}
+
+/* コンテンツの右側 */
+
+.right-side-wrapper {
+  width: 30%;
+}
+
+.right-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* プロフィール画像のコンテンツ */
+
+.right-container img {
+  padding-bottom: 30px;
+  width: 300px;
+}
+
+.right-container img:last-child {
+  padding-bottom: 0;
+}
+
+/* カテゴリーのコンテンツ */
+
+.right-container h2 {
+  margin-top: 40px;
+}
+
+.category-lists li {
+  font-size: 16px;
+  padding-bottom: 15px;
+  font-weight: bold;
+}
+
+/* footerのCSS設定 */
+
+.footer {
+  height: 49px;
+  background-color: #C7C7C7;
+  width: 100%;
+  padding: 19px 0 17px 0;
+}
+
+.footer p {
+  text-align: center;
+  color:  #FFFFFF;
+  font-size: 12px;
+}
