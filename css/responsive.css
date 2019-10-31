@@ -60,16 +60,21 @@
 
     .article {
       width: 100%;
-      margin-bottom: 60px;
+      margin-right: 0;
+      padding-bottom: 40px;
       display: flex;
       flex-wrap: wrap;
-      justify-content: center;
+      justify-content: flex-start;
+    }
+
+    .article:last-child {
+      padding-bottom: 0px;
     }
 
     .article-container {
       display: flex;
       flex-wrap: wrap;
-      justify-content: space-around;
+      margin-bottom: 60px;
     }
 
     .article-img {
@@ -84,6 +89,10 @@
 
     .date {
       margin-bottom: 20px;
+    }
+
+    .news-text {
+      width: 100%;
     }
 
     .all-news-btn {
@@ -102,15 +111,13 @@
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      padding-right: 38px;
-      padding-left: 38px;
     }
 
     .right-container img {
       padding-bottom: 20px;
     }
 
-    .rigth-container img:last-child {
+    .right-container img:last-child {
       padding-bottom: 0px;
     }
 
@@ -125,6 +132,25 @@
   }
 
   @media screen and (max-width:1024px) {
-    /*　画面サイズが768pxからはここを読み込む　*/
-   
+    /*　画面サイズが1024pxからはここを読み込む　*/
+    .article {
+      margin: 0 30px 70px 0;
+      width: calc(50% - 30px / 2);
+    }
+
+    .article:nth-child(2n) {
+      margin-right: 0;
+    }
+  }
+
+  @media screen and (max-width:600px) {
+    /*　画面サイズが600pxからはここを読み込む　*/
+    .article {
+      margin: 0 0 40px 0;
+      width: 100%;
+    }
+
+    .article:nth-child(n) {
+      margin-right: 0;
+    }
   }
