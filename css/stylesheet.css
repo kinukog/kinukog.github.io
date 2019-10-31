@@ -107,18 +107,23 @@ header h1 {
 
 .article-container {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
 }
 
+
 .article {
-  max-width: 320px;
-  width: 100%;
-  margin-bottom: 70px;
+  margin: 0 61px 70px 0;
+  width: calc(50% - 61px / 2);
+}
+
+.article:nth-child(2n) {
+  margin-right: 0;
 }
 
 .article-img {
   margin-bottom: 30px;
+  width: 100%;
 }
 
 .article p {
@@ -181,7 +186,7 @@ header h1 {
 
 .right-container img {
   padding-bottom: 30px;
-  width: 300px;
+  width: 100%;
 }
 
 .right-container img:last-child {
